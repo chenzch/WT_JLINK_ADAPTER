@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "WT_Jlink_Adapter")(type "KiCad")(uri "${KIPRJMOD}/WT_Jlink_Adapter.kicad_sym")(options "")(descr ""))
+)
