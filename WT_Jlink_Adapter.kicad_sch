@@ -1326,17 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 139.7 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "073212d7-d61b-4331-a80e-4c1c5844eaf4")
-	)
-	(wire
-		(pts
-			(xy 163.83 88.9) (xy 157.48 88.9)
+			(xy 157.48 88.9) (xy 168.91 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1383,6 +1373,16 @@
 			(type default)
 		)
 		(uuid "32f1034d-b594-4fb4-841c-047098917956")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7b8546-0c2d-45a8-ad02-142c844ea126")
 	)
 	(wire
 		(pts
@@ -1446,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 91.44) (xy 163.83 91.44)
+			(xy 157.48 91.44) (xy 168.91 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1496,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 163.83 93.98)
+			(xy 157.48 93.98) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1786,6 +1786,17 @@
 		)
 		(uuid "7abe90a1-37c4-4232-8759-3450e382806a")
 	)
+	(label "PIN7"
+		(at 133.35 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ba7bef8-ceb5-4fd8-933b-7a67c28e55b9")
+	)
 	(label "RXD"
 		(at 125.73 115.57 0)
 		(fields_autoplaced yes)
@@ -1951,6 +1962,17 @@
 		)
 		(uuid "e4d2fb4b-3db1-4ebb-99a2-3821aad371aa")
 	)
+	(label "PIN7"
+		(at 139.7 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7761f27-165e-4323-8181-266ae535b666")
+	)
 	(label "SWO-TDO"
 		(at 82.55 95.25 0)
 		(fields_autoplaced yes)
@@ -1972,46 +1994,6 @@
 			(justify right bottom)
 		)
 		(uuid "f1de0148-7329-4818-9803-a04cf9fb833c")
-	)
-	(global_label "PIN7"
-		(shape input)
-		(at 139.7 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "01ed98bd-5943-4de3-8dc1-739c69c08e62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PIN7"
-		(shape input)
-		(at 139.7 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "73a30e4d-5651-44bd-b9d3-1eac07033577")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")

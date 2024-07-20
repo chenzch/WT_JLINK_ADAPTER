@@ -93,7 +93,7 @@
 	(net 10 "unconnected-(J1-Pin_3-Pad3)")
 	(net 11 "/SWCLK-TCK")
 	(net 12 "/VTREF")
-	(net 13 "PIN7")
+	(net 13 "/PIN7")
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "08175859-2019-4a2b-bb61-86ea351c52bb")
@@ -2225,7 +2225,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "PIN7")
+			(net 13 "/PIN7")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "70e53535-234a-4c5f-bfb1-971f59e69189")
@@ -2630,7 +2630,7 @@
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "PIN7")
+			(net 13 "/PIN7")
 			(pinfunction "Pin_7")
 			(pintype "passive")
 			(uuid "4650262c-a73a-4bce-ae61-2f5efe6fba50")
@@ -2719,6 +2719,42 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "757eaad8-35e2-4a59-9f0a-ec15fe37b383")
+	)
+	(gr_text "GND"
+		(at 120.33 108.61 90)
+		(layer "F.SilkS")
+		(uuid "6e7eaeea-1d91-4255-8972-264a2dbe97af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DBG"
+		(at 120.33 111.61 90)
+		(layer "F.SilkS")
+		(uuid "7532e98e-7aaa-4a82-811d-03b4388dde8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RXD"
+		(at 120.33 114.61 90)
+		(layer "F.SilkS")
+		(uuid "a603cf58-9fa2-4451-a8eb-d9ba3aa3804a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "1"
 		(at 114.45 97.42 0)
